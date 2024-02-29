@@ -38,7 +38,7 @@ const Courses = () => {
                                 <input className='max-w-[348px] outline-none mt-3 w-full h-[45px] border  border-[rgba(0,0,0,0.24)] mx-auto pl-[10px]' type="text" placeholder='YOUR NAME:- ' />
                                 <input className='max-w-[348px] outline-none mt-3 w-full h-[45px] border  border-[rgba(0,0,0,0.24)] mx-auto pl-[10px]' type="email" placeholder='EMAIL:-  ' />
                                 <input className='max-w-[348px] outline-none mt-3 w-full h-[45px] border  border-[rgba(0,0,0,0.24)] mx-auto pl-[10px]' type="number" placeholder='PHONE NO:-  ' />
-                                <button className='max-w-[306px] mt-7 p-[11px_90px] w-full text-white bg-black mx-auto flex justify-center text-[12px] sm:text-[20px] font-normal border border-[#000] hover:text-[#000] hover:bg-transparent   ' >GET IT NOW </button>
+                                <button className='max-w-[306px] mt-7 py-[11px] w-full text-white bg-black mx-auto flex justify-center text-[12px] sm:text-[20px] font-normal border border-[#000] hover:text-[#000] hover:bg-transparent   ' >GET IT NOW </button>
                             </form>
                         </div>
                     </div>
