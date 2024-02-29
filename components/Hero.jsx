@@ -1,10 +1,11 @@
-import { BookIcon, PenIcon, StarIcon } from './Icon'
+import Link from 'next/link'
+import { ArrowIcon, BookIcon, PenIcon, StarIcon } from './Icon'
 import Nav from './Nav'
 
 const Hero = () => {
 
 
-  
+
 
 
     return (
@@ -25,7 +26,10 @@ const Hero = () => {
                             </div>
                             <div>
                                 <p className='w-[186px] text-[24px] font-semibold text-[#FFF] '>BEST INDUSTRY LEADERS </p>
-                                <p className='w-[186px] text-[24px] font-semibold text-[#FFB200] '>VIEW MORE </p>
+                                <div className='flex w-[186px]  gap-1 items-center'>
+                                    <Link className=' text-[24px] font-semibold text-[#FFB200] ' href="/">VIEW MORE</Link>
+                                    <ArrowIcon />
+                                </div>
                             </div>
 
                         </div>
@@ -37,7 +41,10 @@ const Hero = () => {
                             </div>
                             <div>
                                 <p className='w-[197px] text-[24px] font-semibold text-[#FFF] '>LEARN COURSES ONLINE </p>
-                                <p className='w-[186px] text-[24px] font-semibold text-[#FFB200] '>VIEW MORE </p>
+                                <div className='flex  gap-1 w-[186px] items-center'>
+                                    <Link className=' text-[24px] font-semibold text-[#FFB200] ' href="/">VIEW MORE</Link>
+                                    <ArrowIcon />
+                                </div>
                             </div>
 
                         </div>
@@ -48,7 +55,11 @@ const Hero = () => {
                             </div>
                             <div>
                                 <p className='w-[186px] text-[24px] font-semibold text-[#FFF] '>BOOK LIBRARY & STORE </p>
-                                <p className='w-[186px] text-[24px] font-semibold text-[#FFB200] '>VIEW MORE </p>
+                                <div className='flex w-[186px]  gap-1 items-center'>
+                                    <p > </p>
+                                    <Link className=' text-[24px] font-semibold text-[#FFB200] ' href="/">VIEW MORE</Link>
+                                    <ArrowIcon />
+                                </div>
                             </div>
 
                         </div>

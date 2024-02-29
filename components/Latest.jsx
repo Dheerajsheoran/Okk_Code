@@ -29,21 +29,21 @@ const Latest = () => {
                     {/* img-------------content */}
                     <div className="mt-6 flex gap-5 flex-wrap justify-center xl:justify-between">
                         <div className="max-w-[318px] justify-center items-center flex flex-col w-full">
-                            <Image src="/img/c-img-2.png" width={318} height={360} alt="img"  />
+                            <Image src="/Img/c-img-2.png" width={318} height={360} alt="img"  />
                             <p className="text-[#fff] font-Inter text-[24px] not-italic font-normal text-center pt-[19px]">
                                 online learning Glossary{" "}
                             </p>
                         </div>
 
                         <div className="max-w-[410px] mx-aut justify-center items-center flex flex-col w-full">
-                            <Image src="/img/c-img-2.png" width={318} height={360}  alt="img" />
+                            <Image src="/Img/c-img-2.png" width={318} height={360}  alt="img" />
                             <p className="text-[#fff] font-Inter text-[24px] not-italic font-normal text-center pt-[19px]">
                                 Tips to succeed in an online course{" "}
                             </p>
                         </div>
 
                         <div className="max-w-[328px] justify-center items-center flex flex-col w-full">
-                            <Image src="/img/c-img-4.png" width={318} height={360}  alt="img" />
+                            <Image src="/Img/c-img-4.png" width={318} height={360}  alt="img" />
                             <p className="text-[#fff] font-Inter text-[24px] not-italic font-normal text-center pt-[19px]">
                                 Introducing Dr. Denie zeynep{" "}
                             </p>
