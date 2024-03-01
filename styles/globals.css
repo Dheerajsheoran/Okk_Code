@@ -14,3 +14,6 @@ input::-webkit-inner-spin-button {
 ::-webkit-scrollbar{
     display: none;
 }
+body{
+    font-family: Poppins;
+}

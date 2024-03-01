@@ -14,7 +14,7 @@ const Upcoming = () => {
                     <button className='hover:bg-black hover:text-[#FFF] text-[#363636] text-[16px] md:text-[20px] max-sm:mt-3 font-medium  p-[7px_16px]  md:p-[10px_38px] border-[2px] border-black '><p className='opacity-50'>VIEW ALL</p> </button>
                 </div>
                 <div className='flex max-lg:flex-col items-center justify-center mt-10 border-y-2 max-lg:border-r-2 border-l-2'>
-                    <div className='max-w-[683px] flex-wrap text-center px-3 w-full flex justify-around '>
+                    <div className='max-w-[683px] flex-wrap max-sm:text-center px-3 w-full flex justify-around '>
                         <div className=' pt-7 '>
                             <p className=' text-[#FFB200] font-medium text-[44px] sm:text-[64px] leading-none '>30</p>
                             <p className=' text-[#FFB200] font-medium text-[12px] sm:text-[16px] leading-none '>May</p>
@@ -30,7 +30,7 @@ const Upcoming = () => {
                     </div>
                 </div>
                 <div className='flex max-lg:flex-col items-center justify-center border-y-2 max-lg:border-r-2 border-l-2 mt-10'>
-                    <div className='max-w-[683px] flex-wrap text-center px-3 w-full flex justify-around  '>
+                    <div className='max-w-[683px] flex-wrap max-sm:text-center px-3 w-full flex justify-around  '>
                         <div className=' pt-7 '>
                             <p className=' text-[#FFB200] font-medium text-[44px] sm:text-[64px] leading-none '>18</p>
                             <p className=' text-[#FFB200] font-medium text-[12px] sm:text-[16px] leading-none '>September </p>

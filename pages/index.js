@@ -14,16 +14,14 @@ export default function Home() {
   return (
     <>
 
-      <div className="font-Poppins">
-        <Hero />
-        <Popular />
-        <Courses />
-        <Upcoming />
-        <Latest />
-        <People />
-        <Footer />
+      <Hero />
+      <Popular />
+      <Courses />
+      <Upcoming />
+      <Latest />
+      <People />
+      <Footer />
 
-      </div>
 
     </>
   );
