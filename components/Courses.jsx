@@ -29,7 +29,7 @@ const Courses = () => {
                     </div>
                     <div className='bg-white max-w-[381px] w-full'>
                         <div className=' max-w-[381px] h-[191px] p-[43px_38px_58px] w-full bg-[url(/Img/Bg-img.png)] bg-no-repeat bg-cover bg-center'>
-                            <p className='max-w-[305px] w-full mx-auto text-[#FFF] text-[16px] sm:text-[21px] font-medium '>Create your free account now
+                            <p className='max-w-[305px] w-full mx-auto text-[#FFF] text-[16px] sm:text-[20px] font-medium '>Create your free account now
                                 and get immediate access to
                                 100s of online courses.</p>
                         </div>
