@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { HamburgrIcon, LogoIcon } from "./Icon";
 import Link from "next/link";
 import Sidebar from "./Sidebar";
@@ -7,6 +7,20 @@ const Nav = () => {
 
 
     const [first, setFrist] = useState(false);
+    useEffect(() => {
+        if (first) {
+            document.body.style.height = "100vh";
+            document.body.style.overflow = "hidden";
+        } else {
+            document.body.style.height = "100%"
+            document.body.style.overflow = "auto";
+        }  
+        // Clean up the effect
+        return () => {
+            document.body.style.height = "100%"
+            document.body.style.overflow = "auto";
+        };
+    }, [first]);
 
     return (
         <>
